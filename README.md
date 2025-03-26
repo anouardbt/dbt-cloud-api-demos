@@ -7,6 +7,7 @@ This repository showcases various examples of integrating dbt Cloud with the Goo
 ### 1. `cloud_functions/`
 Contains examples of Google Cloud Functions that interact with dbt Cloud:
 - **`trigger_dbt_job/`**: A Cloud Function that triggers a dbt Cloud job using the dbt Cloud API when invoked. Useful for event-driven transformations and other automation scenarios.
+- **`jobs_webhook/`**: A Cloud Function that listens for dbt Cloud webhook notifications, allowing automated responses or further actions based on job status updates. Ideal for real-time monitoring, alerting, or integration workflows.
 
 ### 2. `notebooks/`
 Contains Jupyter Notebooks demonstrating integrations between dbt Cloud and GCP services:
